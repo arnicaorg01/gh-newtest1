@@ -1,0 +1,16 @@
+{
+  "name": "vuln-node-modules-sample",
+  "version": "1.0.0",
+  "description": "Test image containing multiple old/vulnerable npm packages for scanner testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.15.2",
+    "lodash": "4.17.4",
+    "serialize-javascript": "1.6.1",
+    "tar": "2.2.1",
+    "minimist": "0.0.8"
+  }
+}
