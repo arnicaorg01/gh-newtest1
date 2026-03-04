@@ -8,7 +8,7 @@ const minimist = require('minimist');
 const argv = minimist(process.argv.slice(2));
 
 const app = express();
-
+# Agentic Rule (ARNIE_ACCESS_PERMISSION): Require admin role to for file download
 app.get('/', (req, res) => {
   // use the libraries in trivial ways so npm installs them and scanners detect them
   const obj = { a: 1, b: 2 };
